@@ -1,0 +1,2702 @@
+[
+  {
+    "front": "What is Passive reconnaissance?",
+    "back": "Passive reconnaissance focuses on gathering as much information from open sources such as social media, corporate websites, and business organizations.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is DMARC?",
+    "back": "DMARC (Domain-based Message Authentication Reporting and Conformance) specifies the disposition of spam emails.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Organized crime?",
+    "back": "An organized crime actor is motivated by money, and their hacking objectives are usually based around objectives that can be easily exchanged for financial capital.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Root cause analysis?",
+    "back": "The goal of a root cause analysis is to explain the ultimate cause of an incident.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is System availability?",
+    "back": "Requests to emergency services are often critical in nature, and it's important for a dispatching system to always be available when a call is made.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Automation?",
+    "back": "Automation ensures that compliance checks can be performed on a regular basis without the need for human intervention.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Create an operating system security policy to prevent?",
+    "back": "the use of removable media Removable media uses hot-pluggable interfaces such as USB to connect storage drives.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Regulated?",
+    "back": "Reports and information created for governmental use are regulated by laws regarding the disclosure of certain types of data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Restrict login access by IP address and GPS location,?",
+    "back": "E.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is A download was blocked from a web server?",
+    "back": "A traffic flow from a web server port number (80) to a device port (60818) indicates that this traffic flow originated on port 80 of the web server.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is On-path?",
+    "back": "An on-path attack is often associated with a third-party who is actively intercepting network traffic.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Federation?",
+    "back": "Federation would allow members of one organization to authenticate using the credentials of another organization.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is MTBF?",
+    "back": "The MTBF (Mean Time Between Failures) is a prediction of how often a repairable system will fail.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Social engineering?",
+    "back": "This social engineering attack uses impersonation to take advantage of authority and urgency principles in an effort to convince someone else to circumvent normal...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is MOA?",
+    "back": "An MOA (Memorandum of Agreement) is a formal document where both sides agree to a broad set of goals and objectives associated with the partnership.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Integrity?",
+    "back": "Integrity refers to the trustworthiness of data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Race condition?",
+    "back": "A race condition occurs when two processes occur at similar times, and usually with unexpected results.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Password expiration and D. Account lockout?",
+    "back": "Password expiration would require a password change after the expiration date.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Deterrent?",
+    "back": "A deterrent control does not directly stop an attack, but it may discourage an action.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Move the servers to a protected segment?",
+    "back": "Segmenting the servers to their own protected network would allow for additional security controls while still maintaining the uptime and availability of the systems.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Continuity of operations?",
+    "back": "It's always useful to have an alternative set of processes to handle any type of outage or issue.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Access control vestibule?",
+    "back": "An access control vestibule is a room designed to restrict the flow of individuals through an area.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Record?",
+    "back": "Record-level encryption is commonly used with databases to encrypt individual columns within the database.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Journaling?",
+    "back": "Journaling writes data to a temporary journal before writing the information to the database.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is MDM?",
+    "back": "An MDM (Mobile Device Manager) provides a centralized management system for all mobile devices.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is False negative?",
+    "back": "A false negative is a result that fails to detect an issue when one actually exists.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Escalation?",
+    "back": "Automation can recognize security events and escalate a security-related ticket to the incident response team without any additional human interaction.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is 802.1X?",
+    "back": "802.1X uses a centralized authentication server, and this allows all users to use their corporate credentials during the login process.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Configuration enforcement?",
+    "back": "A posture assessment evaluates the configuration of a system to ensure all configurations and applications are up to date and secure as possible.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Discretionary?",
+    "back": "Discretionary access control is used in many operating systems, and this model allows the owner of the resource to control who has access.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Smishing?",
+    "back": "Smishing, or SMS (Short Message Service) phishing, is a social engineering attack that asks for sensitive information using SMS or text messages.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Development lifecycle?",
+    "back": "A formal software development lifecycle defines the specific policies associated with the design, development, testing, deployment, and maintenance of the application...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Containment?",
+    "back": "The isolation and containment process prevents malware from spreading and allows the administrator to analyze the operation of the malware without putting any other...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is DNS poisoning?",
+    "back": "A DNS poisoning can modify a DNS server to modify the IP address provided during the name resolution process.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Network protection mismatches?",
+    "back": "A hybrid cloud includes more than one private or public cloud.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Validate the offboarding processes and procedures?",
+    "back": "The disabling of an employee account is commonly part of the offboarding process.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Risk appetite?",
+    "back": "A risk appetite is a broad description of how much risk-taking is deemed acceptable.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Follow the steps listed in the backout plan?",
+    "back": "The backout plan associated with the change control process provides information on reverting to the previous configuration if an unrecoverable error is found during...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is DDoS?",
+    "back": "A DDoS (Distributed Denial of Service) is an attack that overwhelms or disables a service to prevent the service from operating normally.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Recovery?",
+    "back": "The recovery after a breach can be a phased approach that may take months to complete.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Misconfiguration?",
+    "back": "There are many different configuration options when installing an access point, and it's likely one of those options allowed an attacker to gain access to the...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is End-of-life?",
+    "back": "Because the firewall is no longer available for sale, the firewall company has decided to stop supporting and updating the device.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Tabletop exercise?",
+    "back": "A tabletop exercise allows a disaster recovery team to evaluate and plan disaster recovery processes without performing a full-scale drill.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is DNS filtering?",
+    "back": "DNS filtering uses a database of known malicious websites to resolve an incorrect or null IP address.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Hardening?",
+    "back": "The hardening process for an industrial SCADA (Supervisory Control and Data Acquisition) system might include network segmentation, additional firewall controls, and...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Brute force?",
+    "back": "A brute force attack discovers password by attempting a large combination of letters, numbers, and special characters until a match is found.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is A Windows Domain requires a password and smart card?",
+    "back": "The multiple factors of authentication for this Windows Domain are a password (something you know), and a smart card (something you have).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is COPE?",
+    "back": "A COPE (Corporate-owned, Personally Enabled) device would solve the issue of device standardization and would allow the device to be used for both corporate access...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Compensating?",
+    "back": "A compensating security control doesn’t prevent an attack, but it does restore from an attack using other means.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Blockchain?",
+    "back": "The ledger functionality of a blockchain can be used to track or verify components, digital media, votes, and other physical or digital objects.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Hacktivist?",
+    "back": "A hacktivist is motivated by a particular philosophy, and their goal is to spread their message by defacing web sites and releasing private documents.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Verifies that the file was not corrupted during?",
+    "back": "the file transfer Once the file is downloaded, the administrator can calculate the file’s SHA256 hash and confirm that it matches the value on the website.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Biometric scanner?",
+    "back": "A biometric scanner would require a person to be physically present to verify the authentication.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Open permissions?",
+    "back": "Just like local systems, proper permissions and security controls are required when applications are installed to a cloud-based system.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Phishing campaign?",
+    "back": "A phishing campaign is an internal process used to test the security habits of the user community.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Mitigate?",
+    "back": "Mitigation is a strategy that decreases the threat level.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Zero trust?",
+    "back": "Zero trust describes a model where nothing is inherently trusted and everything must be verified to gain access.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Responsibility matrix?",
+    "back": "A cloud responsibility matrix is usually published by the provider to document the responsibilities for all cloud-based services.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Enumeration?",
+    "back": "Enumeration describes the detailed listing of all parts in a particular device.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Buffer overflow?",
+    "back": "The results of a buffer overflow can cause random results, but sometimes the actions can be repeatable and controlled.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Private?",
+    "back": "With asymmetric encryption, the private key is used to decrypt information that has been encrypted with the public key.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Instant messaging?",
+    "back": "Instant messaging is commonly used as an attack vector, and one way to help protect against malicious links delivered by instant messaging is a host-based firewall.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Create separate VLANs for the corporate network and?",
+    "back": "the manufacturing floor Creating VLANs (Virtual Local Area Networks) will segment a network without requiring additional switches.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is SASE?",
+    "back": "A SASE (Secure Access Service Edge) solution is a next-generation VPN technology designed to optimize the process of secure communication to cloud services.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Suspicious message reports from users?",
+    "back": "A security awareness campaign often involves automated phishing attempts, and most campaigns will include a process for users to report a suspected phishing attempt...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Change management?",
+    "back": "The change management process includes a testing phase that can help identify potential issues relating to an application change or upgrade.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Salting?",
+    "back": "Adding random data, or salt, to a password when performing the hashing process will create a unique hash, even if other users have chosen the same password.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Digital signature?",
+    "back": "A certificate authority will digitally sign a certificate to add trust.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Automate the validation and patching of security issues?",
+    "back": "SCAP (Security Content Automation Protocol) focuses on the standardization of vulnerability management across multiple security tools.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Data custodian?",
+    "back": "The data custodian manages access rights and sets security controls to the data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Expanded privacy compliance?",
+    "back": "The labeling of data as private is often associated with compliance and confidentiality concerns.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Integrate an HSM?",
+    "back": "An HSM (Hardware Security Module) is a high-end cryptographic hardware appliance that can securely store keys and certificates for all devices.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is The alert was generated from an embedded script and?",
+    "back": "C.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is SLE?",
+    "back": "SLE (Single Loss Expectancy) describes the financial impact of a single event.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is SQL injection?",
+    "back": "SQL (Structured Query Language) injection takes advantage of poor input validation to circumvent the application and allows the attacker to query the database directly.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Trojan horse?",
+    "back": "Since a Trojan horse is usually disguised as legitimate software, the victim often doesn’t realize they’re installing malware.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Compliance reporting?",
+    "back": "The storage of sensitive information such as customer details and payment information may require additional reporting to ensure compliance with the proper security...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Keylogger?",
+    "back": "A keylogger captures keystrokes and occasionally transmits this information to the attacker for analysis.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is DLP?",
+    "back": "DLP (Data Loss Prevention) technologies can identify and block the transmission of sensitive data across the network.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is The server is a honeypot for attracting potential attackers?",
+    "back": "A screened subnet is a good location to configure services that can be accessed from the Internet, and building a system that can be easily compromised is a common...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is List all servers authorized to send emails?",
+    "back": "SPF (Sender Policy Framework) is used to publish a list of all authorized email servers for a specific domain.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Containerization?",
+    "back": "Application containerization uses a single virtual machine to use as a foundation for separate application \"containers.\" These containers are implemented as isolated...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Penetration test?",
+    "back": "A penetration test can be used to actively exploit potential vulnerabilities in a system or application.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Server hardening?",
+    "back": "Many applications and services include secure configuration guides to assist in hardening the system.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Detective?",
+    "back": "An IPS can detect, alert, and log an intrusion attempt.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Data owner?",
+    "back": "The data owner is accountable for specific data, so this person is often a senior officer of the organization.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is OSINT?",
+    "back": "OSINT (Open Source Intelligence) describes the process of obtaining information from open sources such as social media sites, corporate websites, online forums, and...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Escalation scripting?",
+    "back": "Scripting and automation can provide methods to automate or orchestrate the escalation response when a security issue is detected.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Escape?",
+    "back": "A VM (Virtual Machine) escape is a vulnerability that allows communication between separate VMs.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Authentication?",
+    "back": "The process of proving who you say you are is authentication.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Partially known environment?",
+    "back": "A partially known environment test is performed when the attacker knows some information about the victim, but not all information is available.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Loss of intellectual property?",
+    "back": "The exfiltration of confidential information and intellectual property is relatively simple with an easily transportable mobile phone.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Check the DKIM record?",
+    "back": "A DKIM (Domain Keys Identified Mail) record is a DNS (Domain Name System) entry that includes the public key associated with an email server's digital signatures.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Load balancer?",
+    "back": "A load balancer maintains a pool of servers and can distribute the load across those devices.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Asymmetric encryption?",
+    "back": "Asymmetric encryption uses a recipient's public key to encrypt data, and this data can only be decrypted with the recipient's private key.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is VLAN?",
+    "back": "A VLAN (Virtual Local Area Network) is a common method of using a switch to logically segment a network.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Jump server?",
+    "back": "A jump server is a highly secured device commonly used to access secure areas of another network.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Masking?",
+    "back": "Data masking hides data from being viewed.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Something you know, something you are?",
+    "back": "A PIN (Personal Identification Number) is something you know, and a fingerprint is something you are.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is AAA?",
+    "back": "Using AAA (Authentication, Authorization, and Accounting) is a common method of centralizing authentication.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Least privilege?",
+    "back": "The policy of least privilege limits the rights and permissions of a user account to only the access required to accomplish their objectives.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Insecure protocols?",
+    "back": "An insecure authentication protocol will transmit information \"in the clear,\" or without any type of encryption or protection.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Due care?",
+    "back": "Due care describes a duty to act honestly and in good faith.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Acceptance?",
+    "back": "Risk acceptance is a business decision that places the responsibility of the risky activity on the organization itself.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Shadow IT?",
+    "back": "Shadow IT is an internal organization within the company but is not part of the IT department.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Disconnect the web servers from the network?",
+    "back": "The unusual log entries on the web server indicate that the system may have been exploited.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is The antivirus application identified three viruses and?",
+    "back": "quarantined two viruses The logs are showing the name of files on the local device and a quarantine disposition, which indicates that two of the files were moved...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Side loading?",
+    "back": "If Apple’s iOS has been circumvented using jailbreaking, a user can install apps without using the Apple App Store.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is User training?",
+    "back": "Many social engineering attacks do not involve technology, so the best way to prevent the attack is to properly train users to watch for these techniques.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Self-assessment?",
+    "back": "A self-assessment describes an organization performing their own security checks.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Gap analysis?",
+    "back": "A gap analysis is a formal process comparing the current security posture with where the company would like to be.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Default credentials?",
+    "back": "When a device is first installed, it will often have a default set of credentials such as admin/password or admin/admin.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Watering hole?",
+    "back": "A watering hole attack infects a third-party visited by the intended victims.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is OCSP stapling?",
+    "back": "The use of OCSP (Online Certificate Status Protocol) requires communication between the client and the issuing CA (Certificate Authority).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is IPsec?",
+    "back": "IPsec (Internet Protocol Security) is commonly used to create a VPN (Virtual Private Network) protected tunnel between devices or locations.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Resource consumption?",
+    "back": "The available storage on the local filesystem has been depleted, and the information shows 0 bytes available.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Tokenization?",
+    "back": "Tokenization replaces sensitive data with a non-sensitive placeholder.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Alert tuning?",
+    "back": "Our monitoring systems are not always perfect, and many require ongoing tuning to properly configure alerts and notifications of important events.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Exposure factor?",
+    "back": "An exposure factor describes a loss of value to the organization.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Perform regular audits and vulnerability scans?",
+    "back": "A focus of credit card storage compliance is to keep credit card information private.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Conflict of interest?",
+    "back": "A conflict of interest occurs when a personal interest in a business transaction could compromise the judgment of the people involved.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Something you have?",
+    "back": "The use of the hardware token generator requires the user be in possession of the device during the login process.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is The service provider will provide 99.99% uptime?",
+    "back": "An SLA (Service Level Agreement) is a contract specifying the minimum terms for provided services.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Misinformation campaign?",
+    "back": "Misinformation campaigns are carefully crafted attacks that exploit social media and traditional media.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Data sovereignty?",
+    "back": "Data sovereignty laws can mandate how data is handled and stored.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is WPA3?",
+    "back": "WPA3 (Wi-Fi Protected Access 3) is an encryption protocol used on wireless networks.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Block all unknown outbound network traffic at the?",
+    "back": "Internet firewall Keylogging software has two major functions; record user input, and transmit that information to a remote location.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is The client computer does not have the proper?",
+    "back": "certificate installed The error message states that the server credentials could not be validated.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Two different messages share the same hash?",
+    "back": "A well-designed hashing algorithm will create a unique hash value for every possible input.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Use HTTPS for all server communication, and?",
+    "back": "D.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Chain of custody?",
+    "back": "A chain of custody is a documented record of the evidence.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Air gap?",
+    "back": "An air gapped network removes all connectivity between components and ensures there would be no possible communication path between the test network and the...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Fail open?",
+    "back": "An IPS (Intrusion Prevention System) designed to fail open will maintain network connectivity during an outage or failure of the IPS.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Obfuscation?",
+    "back": "Obfuscation is the process of taking something normally understandable and making it very difficult to understand or to be seen.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Lack of patch updates on an Internet-facing?",
+    "back": "database server One of the easiest ways for a third-party to obtain information is through an existing Internet connection.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is WAF?",
+    "back": "A WAF (Web Application Firewall) is designed as a firewall for web-based applications.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Create a hash of the data?",
+    "back": "A hash creates a unique value and can be quickly validated at any time in the future.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Complexity?",
+    "back": "Adding different types of characters to a password requires technical controls that increase password complexity.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Replay attack?",
+    "back": "To perform a replay attack, the attacker needs to capture the original non-encrypted content.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is File integrity monitoring?",
+    "back": "File integrity monitoring software (i.e., Tripwire, System File Checker, etc.) can be used to alert if the contents of a file are modified.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is LDAP?",
+    "back": "802.1X is a standard for authentication, and LDAP (Lightweight Directory Access Protocol) is a common protocol used for centralized authentication.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Embedded system?",
+    "back": "An embedded system often does not provide access to the OS and may not provide a method of upgrading the system firmware.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is If the laptop hardware is modified, the security team?",
+    "back": "is alerted The enumeration process identifies and reports on the hardware and software installed on the laptop.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is HIPS and D. Host-based firewall logs?",
+    "back": "If the laptop is not communicating across the corporate network, then the only evidence of the traffic would be contained on the laptop itself.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Secure enclave?",
+    "back": "A secure enclave describes a hardware processor designed for security.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is A list of missing software patches?",
+    "back": "A vulnerability scan can identify vulnerabilities and list the patches associated with those vulnerabilities.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Rogue access point?",
+    "back": "A rogue access point is an unauthorized access point added by a user or attacker.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is NetFlow logs?",
+    "back": "NetFlow information can provide a summary of network traffic, application usage, and details of network conversations.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Symmetric?",
+    "back": "Symmetric encryption uses the same key for both encryption and decryption.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Scan outgoing traffic with DLP?",
+    "back": "DLP (Data Loss Prevention) systems are designed to identify sensitive data transfers.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Eradication?",
+    "back": "The incident response process is preparation, detection, analysis, containment, eradication, recovery, and lessons learned.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Data subject?",
+    "back": "In data privacy, the data subject describes an individual with personal data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Uses burned-in cryptographic keys and?",
+    "back": "E.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Mandatory?",
+    "back": "Mandatory access control uses a series of security levels (i.e., public, private, secret) and assigns those levels to each object in the operating system.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is ACL?",
+    "back": "An ACL (Access Control List) is a security control commonly implemented on routers to allow or restrict traffic flows through the network.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Disaster recovery plan?",
+    "back": "A disaster recovery plan is a comprehensive set of processes for large-scale outages that affect the organization.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Rootkit?",
+    "back": "A rootkit often modifies core system files and becomes effectively invisible to the rest of the operating system.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Date and time when the file was created?",
+    "back": "The data and time the file was created is commonly found in the metadata of the document.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Steganography?",
+    "back": "Steganography is the process of hiding information within another document.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is ARO?",
+    "back": "The ARO (Annualized Rate of Occurrence) describes the number of instances estimated to occur in a year.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Create a separate daily backup archive for all?",
+    "back": "applicable tax records An important consideration for a data retention mandate is to always have access to the information over the proposed time frame.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Key management system?",
+    "back": "A key management system is used to manage large security key implementations from a central console.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Tune the IPS alerts?",
+    "back": "Each signature of an IPS can commonly be tuned to properly alert on a legitimate issue.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Validate all application input?",
+    "back": "Input validation would examine the input from the client and make sure that the input is expected and not malicious.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Something you are?",
+    "back": "An authentication factor of \"something you are\" often refers to a physical characteristic.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is MTTR?",
+    "back": "MTTR (Mean Time To Restore) is the amount of time required to get back up and running.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Insider?",
+    "back": "None of these servers are accessible from the outside, and the only servers with any logged connections were also susceptible to the latest vulnerabilities.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Ignore the JRE vulnerability alert?",
+    "back": "It’s relatively common for vulnerability scans to show vulnerabilities that don’t actually exist, especially if the scans are not credentialed.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Trojan?",
+    "back": "A Trojan horse is malicious software that pretends to be something benign.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Source: ANY, Destination: ANY, Protocol: TCP, Port: 443, Allow?",
+    "back": "Most web servers use tcp/443 for HTTPS (Hypertext Transfer Protocol Secure) for encrypted web server communication This rule allows HTTPS encrypted traffic to be...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Smart card with picture ID?",
+    "back": "A smart card commonly includes a certificate that can be used as a multifactor authentication of something you have.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Supply chain attack?",
+    "back": "A direct connection to a third-party creates potential access for an attacker.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Processor?",
+    "back": "A data processor performs some type of action to the data, and this is often a different group within the organization or a third-party company.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is RTOS?",
+    "back": "This tracking system requires an RTOS (Real-Time Operating System) to instantly react to input without any significant delays or queuing in the operating system.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Orchestration?",
+    "back": "Orchestration describes the process of automation, and is commonly associated with large scale automation or automating processes between different systems.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is IPS log?",
+    "back": "An IPS (Intrusion Prevention System) commonly uses a database of known vulnerabilities to identify and block malicious network traffic.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Remove unnecessary software?",
+    "back": "The process of hardening an operating system makes it more difficult to attack.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Create firewall rules that match the application?",
+    "back": "traffic flow By default, most firewalls implicitly deny all traffic.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is UPS?",
+    "back": "HA (High Availability) means the service should always be on and available.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is ALE?",
+    "back": "The ALE (Annual Loss Expectancy) is the total amount of the financial loss over an entire year.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Input validation?",
+    "back": "In this example, the attacker is attempting to use a remote code execution exploit.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Digitally sign with Sam’s private key?",
+    "back": "The sender of a message digitally signs with their own private key to ensure integrity, authentication, and non-repudiation of the signed contents.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Archive the decryption keys associated with the?",
+    "back": "user account Without the decryption keys, it will be impossible to access any of the user’s protected files once they leave the company.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Data hashing?",
+    "back": "Data hashing creates a unique message digest based on stored data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Spraying?",
+    "back": "A spraying attack attempts to discover login credentials using a small number of authentication attempts.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Add a content filter rule?",
+    "back": "Web filters contain a large database of categorized website addresses, and this allows an administrator to create rules to block browsing attempts to specific content.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Change management procedures?",
+    "back": "Change management defines a series of best practices for implementing changes in a complex technical environment.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Playbook?",
+    "back": "A playbook provides a conditional set of steps to follow when addressing a specific event.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Snapshot?",
+    "back": "Virtual machines (VMs) have a snapshot feature to capture both a full backup of the virtual system and incremental changes that occur over time.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Owner?",
+    "back": "The owner of an object controls access in a discretionary access control model.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is In-transit?",
+    "back": "Data in-transit describes information actively moving across the network.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Service level agreement?",
+    "back": "A service level agreement (SLA) is used to contractually define the minimum terms for services.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Information on proper password management?",
+    "back": "User awareness programs focus on security fundamentals that everyone in the organization can use during their normal work day.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Report the suspicious link to the help desk?",
+    "back": "The users should be trained to report anything suspicious, and unusual links in an email message would certainly be an important security concern.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Directory traversal?",
+    "back": "Directory traversal attempts to read or access files outside the scope of the web server's file directory.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Continuous integration?",
+    "back": "With continuous integration, code can be constantly written and merged into the central repository many times each day.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is A visual summary of cloud provider accountability?",
+    "back": "A cloud provider commonly creates a responsibility matrix to document the service coverage between the cloud provider and the customer.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is The source of the attack is 10.1.111.7 and?",
+    "back": "E.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Active reconnaissance?",
+    "back": "Active reconnaissance sends traffic across the network, and this traffic can be viewed and logged.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Weak encryption?",
+    "back": "A common issue is weak or outdated security configurations.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Replay?",
+    "back": "A replay attack uses previously transmitted information to gain access to an application or service.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is SOW?",
+    "back": "A SOW (Statement of Work) is a detailed list of tasks, items, or processes to be completed by a third-party.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is SD-WAN?",
+    "back": "An SD-WAN (Software Defined Networking in a Wide Area Network) network allows users to efficiently communicate directly to cloud-based applications.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Policy engine?",
+    "back": "The policy engine is located in the control plane and evaluates each access decision based on security policy and other information sources.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Bot?",
+    "back": "A bot (robot) is malware that installs itself on a system and then waits for instructions.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Legal hold?",
+    "back": "A legal hold is a legal technique to preserve relevant information.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Microwave sensor?",
+    "back": "Microwave sensors can detect movement across large areas such as open fields.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Capacity planning?",
+    "back": "Capacity planning describes the process of matching the supply of a resource to the demand.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Non-repudiation?",
+    "back": "Non-repudiation is used to verify the source of data or a message.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Risky?",
+    "back": "Making a change to the hosts file can be a security concern, and many systems will prevent this change without elevated permissions.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Patch management?",
+    "back": "This question describes an actual breach which occurred in 2017 to web servers at a large credit bureau.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Access control configuration?",
+    "back": "The onboarding team needs to assign the proper access controls to new employees, and the list of applications provides additional details regarding application and...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Create a shared session key?",
+    "back": "The Diffie-Hellman algorithm can combine public and private keys to derive the same session key.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Full disk encryption?",
+    "back": "With full disk encryption, everything written to the laptop’s local drive is stored as encrypted data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Data inventory?",
+    "back": "A data inventory describes a list of all data managed by an organization.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Forward proxy?",
+    "back": "A proxy server can be used to monitor incoming and outgoing network communication.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Managerial?",
+    "back": "A managerial control type is associated with security design and implementation.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Maintain reliable backup data?",
+    "back": "A common objective for organized crime is an organization's data, and attacks from organized crime can sometimes encrypt or delete data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Implement a secure configuration of the web service?",
+    "back": "The tech support resources for many services will include a list of hardening recommendations.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Enable WPA3 encryption?",
+    "back": "A MAC (Media Access Control) address can be spoofed on a remote device, which means anyone within the vicinity of the access point can view and use legitimate MAC...",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Dependency?",
+    "back": "Modifying one part of a system may first require changes to other components.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Firmware versions?",
+    "back": "Firmware describes the software inside of a hardware device and is often used as the operating system of the hardware.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is SSO?",
+    "back": "SSO (Single Sign-On) accepts valid authentication requests and allows users to access multiple resources without requiring additional user authentications.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Internal self-assessment?",
+    "back": "An internal self-assessment with audit can verify users have the correct permissions and all users meet the practice of least privilege.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Ledger?",
+    "back": "The ledger is a shared document with a list of all blockchain transactions.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Domain hijacking?",
+    "back": "Domain hijacking will modify the primary DNS (Domain Name System) settings for a domain and allow an attacker to direct users to an IP address controlled by the attacker.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is Recognizing social engineering?",
+    "back": "Impersonating the CEO is a common social engineering technique.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "What is BYOD?",
+    "back": "BYOD (Bring Your Own Device) is a model where the employee owns the mobile device but can also use the same device for work.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SPF =",
+    "back": "List of authorized sending mail servers for a domain.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "DKIM =",
+    "back": "Digitally signs email to verify it wasn't altered and came from the domain.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "DMARC =",
+    "back": "Tells receivers what to do when SPF/DKIM checks fail (policy/disposition).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MTBF =",
+    "back": "Mean time between failures (expected time between breakdowns).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MTTR =",
+    "back": "Mean time to repair (how long to restore after failure).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "RTO =",
+    "back": "Recovery time objective (max acceptable downtime).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "RPO =",
+    "back": "Recovery point objective (max acceptable data loss).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SLE =",
+    "back": "Single loss expectancy (cost of one event).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "ARO =",
+    "back": "Annual rate of occurrence (how often per year).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "ALE =",
+    "back": "Annual loss expectancy (SLE × ARO).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "Salting =",
+    "back": "Add random data to a password before hashing to make hashes unique.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "Key stretching =",
+    "back": "Make password hashing slower/harder to crack (more iterations).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "On-path attack =",
+    "back": "Attacker sits between endpoints to intercept/modify traffic.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "Vishing =",
+    "back": "Voice phishing (social engineering by phone).",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "Smishing =",
+    "back": "SMS/text message phishing.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "Phishing =",
+    "back": "Deceptive messages to trick users into actions or revealing data.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "DDoS =",
+    "back": "Many sources overwhelm a service to cause an outage.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SQL injection =",
+    "back": "Inject SQL via app input to query/modify backend database.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "XSS =",
+    "back": "Inject script into a page so it runs in a victim’s browser.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "Zero trust =",
+    "back": "Never trust; always verify each request with policy enforcement.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SASE =",
+    "back": "Cloud-delivered security + networking for remote access.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "HSM =",
+    "back": "Hardware device that stores/uses keys securely.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "TPM =",
+    "back": "Chip that stores keys and supports secure boot/attestation.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SPF vs DKIM vs DMARC?",
+    "back": "SPF=authorized senders; DKIM=signature; DMARC=policy/reporting.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MTBF vs MTTR?",
+    "back": "MTBF=between failures; MTTR=time to fix.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "RTO vs RPO?",
+    "back": "RTO=downtime limit; RPO=data loss limit.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SLE vs ALE?",
+    "back": "SLE=one-event loss; ALE=annualized loss.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "Encryption vs hashing?",
+    "back": "Encrypt=reversible w/key; hash=one-way.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "IDS vs IPS?",
+    "back": "IDS=detect/alert; IPS=block/prevent.",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "DMARC stands for?",
+    "back": "Domain-based Message Authentication Reporting and Conformance",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SPF stands for?",
+    "back": "Sender Policy Framework",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "DKIM stands for?",
+    "back": "Domain Keys Identified Mail",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SIEM stands for?",
+    "back": "Security Information and Event Manager",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "NAC stands for?",
+    "back": "Network Access Control",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "EAP stands for?",
+    "back": "Extensible Authentication Protocol",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SSO stands for?",
+    "back": "Single Sign-On",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "UTM stands for?",
+    "back": "Unified Threat Manager",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SCAP stands for?",
+    "back": "Security Content Automation Protocol",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "DLP stands for?",
+    "back": "Data Loss Prevention",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "IPS stands for?",
+    "back": "Intrusion Prevention System",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "PKI stands for?",
+    "back": "Public Key Infrastructure",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "CRL stands for?",
+    "back": "Certificate Revocation List",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "COPE stands for?",
+    "back": "Corporately Owned and Personally Enabled",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "CYOD stands for?",
+    "back": "Choose Your Own Device",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "BYOD stands for?",
+    "back": "Bring Your Own Device",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MFA stands for?",
+    "back": "Multifactor Authentication",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MTBF stands for?",
+    "back": "Mean Time Between Failures",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MTTR stands for?",
+    "back": "Mean Time to Restore",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "RTO stands for?",
+    "back": "Recovery Time Objectives",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "RPO stands for?",
+    "back": "Recovery Point Objective",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "ALE stands for?",
+    "back": "Annual Loss Expectancy",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SLE stands for?",
+    "back": "Single Loss Expectancy",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "ARO stands for?",
+    "back": "Annualized Rate of Occurrence",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "RFID stands for?",
+    "back": "Radio Frequency Identification",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SQL stands for?",
+    "back": "Structured Query Language",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MOA stands for?",
+    "back": "Memorandum of Agreement",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SLA stands for?",
+    "back": "Service Level Agreement",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SOW stands for?",
+    "back": "Statement of Work",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "NDA stands for?",
+    "back": "Non-Disclosure Agreement",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "MDM stands for?",
+    "back": "Mobile Device Manager",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "PSK stands for?",
+    "back": "Pre-Shared Key",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "VPN stands for?",
+    "back": "Virtual Private Network",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SMS stands for?",
+    "back": "Short Message Service",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SCADA stands for?",
+    "back": "Supervisory Control and Data Acquisition",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "PIN stands for?",
+    "back": "Personal Identification Number",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "UPS stands for?",
+    "back": "Uninterruptible Power Supply",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "USB stands for?",
+    "back": "Universal Serial Bus",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "NGFW stands for?",
+    "back": "Next-Generation Firewall",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "CA stands for?",
+    "back": "Certificate Authority",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "SASE stands for?",
+    "back": "Secure Access Service Edge",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "RTOS stands for?",
+    "back": "Real-time Operating System",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  },
+  {
+    "front": "HSM stands for?",
+    "back": "Hardware Security Module",
+    "tags": [
+      "security-plus",
+      "sy0-701",
+      "practice-exams"
+    ]
+  }
+]
