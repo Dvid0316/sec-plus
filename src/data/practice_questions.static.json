@@ -1,0 +1,980 @@
+{
+  "questions": [
+    {
+      "id": "static-1-0",
+      "question": "Your organization needs to implement controls that are executed by computer systems to enforce access restrictions. Which category of control should you deploy?",
+      "options": [
+        "Managerial controls",
+        "Operational controls",
+        "Technical controls",
+        "Physical controls"
+      ],
+      "correct_index": 2,
+      "explanation": "Technical controls are logical controls executed by computer systems, including authentication, access control, firewalls, and encryption.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-1",
+      "question": "During a security audit, you discover that your organization lacks controls to detect when security incidents occur. Security cameras exist but aren't monitored, and there's no IDS deployed. What type of control is missing?",
+      "options": [
+        "Preventive controls",
+        "Detective controls",
+        "Deterrent controls",
+        "Corrective controls"
+      ],
+      "correct_index": 1,
+      "explanation": "Detective controls monitor and detect unauthorized behavior. Unmonitored cameras and lack of IDS mean there's no active detection capability.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-2",
+      "question": "Which control type is designed to discourage potential attackers from targeting your organization by making security measures visible?",
+      "options": [
+        "Preventive",
+        "Compensating",
+        "Deterrent",
+        "Detective"
+      ],
+      "correct_index": 2,
+      "explanation": "Deterrent controls aim to discourage attackers by displaying visible security measures like alarm systems or warning banners.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-3",
+      "question": "Your company can't afford hardware encryption modules for database protection. Instead, you implement additional network access control (NAC) and data loss prevention (DLP). What type of control have you implemented?",
+      "options": [
+        "Preventive control",
+        "Compensating control",
+        "Deterrent control",
+        "Directive control"
+      ],
+      "correct_index": 1,
+      "explanation": "Compensating (alternative) controls satisfy security requirements when primary controls are too expensive or impractical to implement.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-4",
+      "question": "What principle of the CIA triad ensures that data hasn't been modified by unauthorized parties?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Non-repudiation"
+      ],
+      "correct_index": 1,
+      "explanation": "Integrity ensures data remains accurate and unmodified by unauthorized parties throughout its lifecycle.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-5",
+      "question": "Your organization is implementing a new security model where no user or device is trusted by default, even if they're inside the network perimeter. Every access request requires verification. What model is being implemented?",
+      "options": [
+        "Defense in depth",
+        "Least privilege",
+        "Zero Trust",
+        "Role-based access control"
+      ],
+      "correct_index": 2,
+      "explanation": "Zero Trust architecture assumes no implicit trust and requires verification for every access request regardless of location (never trust, always verify).",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-6",
+      "question": "Which AAA component determines what resources a user can access after successful authentication?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Accounting",
+        "Auditing"
+      ],
+      "correct_index": 1,
+      "explanation": "Authorization grants permissions and determines what resources an authenticated user can access.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-7",
+      "question": "You're implementing a change management process. Before deploying a security patch, you need to document how to reverse the change if it causes problems. What component are you creating?",
+      "options": [
+        "Impact analysis",
+        "Backout plan",
+        "Maintenance window",
+        "Standard operating procedure"
+      ],
+      "correct_index": 1,
+      "explanation": "A backout plan documents the steps to reverse a change if it causes unexpected issues or failures.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-8",
+      "question": "What encryption method uses the same key for both encryption and decryption?",
+      "options": [
+        "Asymmetric encryption",
+        "Public key encryption",
+        "Symmetric encryption",
+        "Hashing"
+      ],
+      "correct_index": 2,
+      "explanation": "Symmetric encryption uses the same key for both encryption and decryption operations. It's faster but requires secure key distribution.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-9",
+      "question": "Your organization processes credit card data. You need to encrypt data while it's being transmitted between the customer's browser and your web server. What encryption state are you implementing?",
+      "options": [
+        "Encryption at rest",
+        "Encryption in transit",
+        "Encryption in use",
+        "Full disk encryption"
+      ],
+      "correct_index": 1,
+      "explanation": "Encryption in transit/motion protects data while it's being transmitted across networks between systems.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-10",
+      "question": "Which control type provides guidance through policies and procedures to influence employee behavior?",
+      "options": [
+        "Preventive",
+        "Detective",
+        "Directive",
+        "Corrective"
+      ],
+      "correct_index": 2,
+      "explanation": "Directive controls guide operations and influence behavior through standards, procedures, policies, and security awareness training.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-11",
+      "question": "After a security incident, you restore data from backups and apply patches to prevent recurrence. What type of controls are you implementing?",
+      "options": [
+        "Preventive controls",
+        "Detective controls",
+        "Corrective controls",
+        "Deterrent controls"
+      ],
+      "correct_index": 2,
+      "explanation": "Corrective controls are used after an event to limit damage and aid recovery, including restores, patches, and vulnerability mitigation.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-12",
+      "question": "What security mechanism ensures that users cannot deny having performed an action?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Non-repudiation",
+        "Accounting"
+      ],
+      "correct_index": 2,
+      "explanation": "Non-repudiation provides proof that a specific action occurred and cannot be denied, typically using digital signatures or audit logs.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-13",
+      "question": "You're comparing your current security controls against industry best practices to identify gaps. What process are you performing?",
+      "options": [
+        "Vulnerability assessment",
+        "Penetration testing",
+        "Gap analysis",
+        "Risk assessment"
+      ],
+      "correct_index": 2,
+      "explanation": "Gap analysis compares current security posture against desired state to identify weaknesses and prioritize improvements.",
+      "domain": "1"
+    },
+    {
+      "id": "static-1-14",
+      "question": "Which component of PKI manages the creation, distribution, and revocation of digital certificates?",
+      "options": [
+        "Certificate Authority (CA)",
+        "Registration Authority (RA)",
+        "Key escrow",
+        "Certificate Repository"
+      ],
+      "correct_index": 0,
+      "explanation": "The Certificate Authority (CA) is the trusted entity that issues, manages, and revokes digital certificates in a PKI.",
+      "domain": "1"
+    },
+    {
+      "id": "static-2-0",
+      "question": "An attacker sends emails to employees claiming to be from IT, requesting they verify their credentials on a fake login page. What type of attack is this?",
+      "options": [
+        "Vishing",
+        "Smishing",
+        "Phishing",
+        "Pretexting"
+      ],
+      "correct_index": 2,
+      "explanation": "Phishing uses fraudulent emails to trick victims into revealing credentials or clicking malicious links.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-1",
+      "question": "What type of threat actor is typically motivated by political or social causes?",
+      "options": [
+        "Organized crime",
+        "Nation-state",
+        "Hacktivist",
+        "Insider threat"
+      ],
+      "correct_index": 2,
+      "explanation": "Hacktivists are motivated by political or social causes and use hacking to promote their agenda.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-2",
+      "question": "Your web application accepts user input without validation. An attacker submits `'; DROP TABLE users; --` in a form field. What vulnerability is being exploited?",
+      "options": [
+        "Cross-site scripting (XSS)",
+        "SQL injection (SQLi)",
+        "Buffer overflow",
+        "Directory traversal"
+      ],
+      "correct_index": 1,
+      "explanation": "SQL injection exploits lack of input validation to insert malicious SQL commands that manipulate database queries.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-3",
+      "question": "What attack involves an attacker calling victims and pretending to be tech support to steal credentials?",
+      "options": [
+        "Phishing",
+        "Smishing",
+        "Vishing",
+        "Whaling"
+      ],
+      "correct_index": 2,
+      "explanation": "Vishing (voice phishing) is phone-based social engineering where attackers impersonate legitimate entities.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-4",
+      "question": "An attacker compromises a website frequently visited by employees in your finance department. The malicious site attempts to infect visitors with malware. What type of attack is this?",
+      "options": [
+        "Phishing",
+        "Watering hole attack",
+        "Drive-by download",
+        "Man-in-the-middle"
+      ],
+      "correct_index": 1,
+      "explanation": "Watering hole attacks compromise websites frequently visited by a target group to infect visitors.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-5",
+      "question": "What malware encrypts victim files and demands payment for the decryption key?",
+      "options": [
+        "Trojan",
+        "Worm",
+        "Ransomware",
+        "Rootkit"
+      ],
+      "correct_index": 2,
+      "explanation": "Ransomware encrypts files and demands payment (usually cryptocurrency) for the decryption key.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-6",
+      "question": "Your application writes 100 bytes of data to a 50-byte buffer. An attacker leverages this to overwrite adjacent memory and execute malicious code. What vulnerability exists?",
+      "options": [
+        "SQL injection",
+        "Buffer overflow",
+        "Race condition",
+        "Integer overflow"
+      ],
+      "correct_index": 1,
+      "explanation": "Buffer overflow occurs when more data is written to a buffer than allocated, potentially allowing code execution by overwriting memory.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-7",
+      "question": "What type of malware is specifically designed to hide its presence by modifying operating system components?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Rootkit"
+      ],
+      "correct_index": 3,
+      "explanation": "Rootkits modify OS components to hide their presence and maintain privileged access while evading detection.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-8",
+      "question": "An attacker registers `amaz0n.com` (with a zero) hoping users will mistype the legitimate Amazon URL. What attack is this?",
+      "options": [
+        "Phishing",
+        "Typosquatting",
+        "Session hijacking",
+        "Domain hijacking"
+      ],
+      "correct_index": 1,
+      "explanation": "Typosquatting registers domain names similar to legitimate sites with common typos to capture misdirected traffic.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-9",
+      "question": "What attack involves overwhelming a target with traffic from multiple sources to make it unavailable?",
+      "options": [
+        "DoS",
+        "DDoS",
+        "Man-in-the-middle",
+        "DNS poisoning"
+      ],
+      "correct_index": 1,
+      "explanation": "Distributed Denial of Service (DDoS) uses multiple sources to overwhelm targets with traffic, making resources unavailable.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-10",
+      "question": "An attacker positions themselves between your laptop and the wireless access point, intercepting and modifying traffic. What attack is occurring?",
+      "options": [
+        "Evil twin",
+        "DDoS",
+        "On-path (MITM) attack",
+        "Replay attack"
+      ],
+      "correct_index": 2,
+      "explanation": "On-path (man-in-the-middle) attacks involve positioning between parties to intercept, modify, or inject data.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-11",
+      "question": "What vulnerability allows attackers to escape a virtual machine and access the host system?",
+      "options": [
+        "Container escape",
+        "VM escape",
+        "Privilege escalation",
+        "Sandbox bypass"
+      ],
+      "correct_index": 1,
+      "explanation": "VM escape exploits hypervisor vulnerabilities to break out of a VM and access the host or other VMs.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-12",
+      "question": "Your vendor was compromised and shipped hardware with backdoors installed during manufacturing. What type of attack occurred?",
+      "options": [
+        "Insider threat",
+        "Supply chain attack",
+        "Advanced persistent threat",
+        "Watering hole attack"
+      ],
+      "correct_index": 1,
+      "explanation": "Supply chain attacks compromise hardware/software during acquisition, development, or deployment lifecycle.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-13",
+      "question": "What mitigation technique involves dividing a network into separate zones to contain breaches?",
+      "options": [
+        "Encryption",
+        "Segmentation",
+        "Patching",
+        "Access control"
+      ],
+      "correct_index": 1,
+      "explanation": "Segmentation divides networks into zones to contain breaches, reduce attack surface, and control traffic flow.",
+      "domain": "2"
+    },
+    {
+      "id": "static-2-14",
+      "question": "Users receive text messages claiming their bank account was compromised with a link to 'verify' credentials. What attack is this?",
+      "options": [
+        "Phishing",
+        "Vishing",
+        "Smishing",
+        "Pharming"
+      ],
+      "correct_index": 2,
+      "explanation": "Smishing is SMS-based phishing using text messages with malicious links or requests for sensitive information.",
+      "domain": "2"
+    },
+    {
+      "id": "static-3-0",
+      "question": "Your organization wants to host public web servers accessible from the internet while protecting internal resources. Where should these servers be placed?",
+      "options": [
+        "Internal network",
+        "DMZ",
+        "Private VLAN",
+        "Guest network"
+      ],
+      "correct_index": 1,
+      "explanation": "DMZ (Demilitarized Zone) is a network segment between internal network and internet for hosting public-facing services isolated from internal resources.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-1",
+      "question": "What security approach involves implementing multiple layers of defense so if one fails, others still protect assets?",
+      "options": [
+        "Zero Trust",
+        "Defense in depth",
+        "Least privilege",
+        "Segmentation"
+      ],
+      "correct_index": 1,
+      "explanation": "Defense in depth uses layered security with multiple controls at different levels to protect if one layer fails.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-2",
+      "question": "Your company classifies data as Public, Internal, Confidential, and Restricted. Salary information would be classified as what?",
+      "options": [
+        "Public",
+        "Internal",
+        "Confidential",
+        "Restricted"
+      ],
+      "correct_index": 2,
+      "explanation": "Confidential data includes sensitive information like salaries, performance reviews, and personal information requiring protection.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-3",
+      "question": "What technology detects and prevents unauthorized data transmission by monitoring content?",
+      "options": [
+        "IDS",
+        "IPS",
+        "DLP",
+        "CASB"
+      ],
+      "correct_index": 2,
+      "explanation": "Data Loss Prevention (DLP) detects and prevents unauthorized data transmission through monitoring and blocking sensitive data movement.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-4",
+      "question": "You need to encrypt data on employee laptops to protect against theft. What encryption level should you implement?",
+      "options": [
+        "File-level encryption",
+        "Full disk encryption",
+        "Database encryption",
+        "Transport encryption"
+      ],
+      "correct_index": 1,
+      "explanation": "Full disk encryption protects entire drives on laptops/devices, preventing data access if device is stolen or lost.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-5",
+      "question": "What's the key difference between IDS and IPS?",
+      "options": [
+        "IDS is hardware, IPS is software",
+        "IDS detects and alerts, IPS actively blocks threats",
+        "IDS monitors networks, IPS monitors hosts",
+        "IDS is faster than IPS"
+      ],
+      "correct_index": 1,
+      "explanation": "IDS passively detects and alerts on threats. IPS actively prevents threats by blocking malicious traffic in real-time.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-6",
+      "question": "Your cloud security team needs visibility and policy enforcement between users and SaaS applications. What solution should be implemented?",
+      "options": [
+        "WAF",
+        "CASB",
+        "DLP",
+        "SIEM"
+      ],
+      "correct_index": 1,
+      "explanation": "Cloud Access Security Broker (CASB) provides visibility, compliance, and threat protection between cloud service consumers and providers.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-7",
+      "question": "What defines the maximum acceptable amount of data loss in a disaster recovery plan?",
+      "options": [
+        "RTO",
+        "RPO",
+        "MTBF",
+        "MTTR"
+      ],
+      "correct_index": 1,
+      "explanation": "Recovery Point Objective (RPO) defines the maximum acceptable data loss measured in time (e.g., 1 hour of data).",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-8",
+      "question": "Your DR plan requires systems to be restored within 4 hours of a disaster. What metric does this represent?",
+      "options": [
+        "RPO",
+        "RTO",
+        "MTBF",
+        "SLA"
+      ],
+      "correct_index": 1,
+      "explanation": "Recovery Time Objective (RTO) defines the maximum acceptable downtime - how quickly systems must be restored.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-9",
+      "question": "What security architecture principle involves creating very granular security zones down to individual workload level?",
+      "options": [
+        "Network segmentation",
+        "Microsegmentation",
+        "Air gapping",
+        "Demilitarization"
+      ],
+      "correct_index": 1,
+      "explanation": "Microsegmentation creates very granular security zones down to individual workload level, typically in virtualized/cloud environments.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-10",
+      "question": "Your development team wants to ensure security is integrated throughout the CI/CD pipeline. What approach are they implementing?",
+      "options": [
+        "Secure SDLC",
+        "DevOps",
+        "DevSecOps",
+        "Agile development"
+      ],
+      "correct_index": 2,
+      "explanation": "DevSecOps integrates security practices into the DevOps pipeline for continuous security throughout development and deployment.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-11",
+      "question": "What infrastructure approach involves never modifying systems after deployment - replacing them entirely instead?",
+      "options": [
+        "Infrastructure as Code",
+        "Immutable infrastructure",
+        "Containerization",
+        "Serverless architecture"
+      ],
+      "correct_index": 1,
+      "explanation": "Immutable infrastructure is never modified after deployment - systems are replaced entirely rather than updated, reducing configuration drift.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-12",
+      "question": "EU regulations require that customer data from European citizens must be stored on servers physically located in the EU. What concept does this describe?",
+      "options": [
+        "Data classification",
+        "Data sovereignty",
+        "Data retention",
+        "Data localization"
+      ],
+      "correct_index": 1,
+      "explanation": "Data sovereignty refers to legal requirements that data is subject to laws of the country where it's physically stored.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-13",
+      "question": "What ensures business operations continue during disruptions beyond just IT system recovery?",
+      "options": [
+        "Disaster recovery",
+        "Business continuity",
+        "Incident response",
+        "Crisis management"
+      ],
+      "correct_index": 1,
+      "explanation": "Business continuity ensures entire business operations continue during disruptions, broader than disaster recovery which focuses on IT systems.",
+      "domain": "3"
+    },
+    {
+      "id": "static-3-14",
+      "question": "Your organization distributes critical systems across data centers in different cities to prevent a single disaster from taking everything offline. What strategy is this?",
+      "options": [
+        "Redundancy",
+        "Geographic dispersal",
+        "Load balancing",
+        "Fault tolerance"
+      ],
+      "correct_index": 1,
+      "explanation": "Geographic dispersal distributes resources across multiple physical locations to prevent single point of failure from localized disasters.",
+      "domain": "3"
+    },
+    {
+      "id": "static-4-0",
+      "question": "You're configuring a new Windows server. You disable unnecessary services, remove unneeded software, apply latest patches, and configure firewall rules. What process are you performing?",
+      "options": [
+        "Baselining",
+        "Hardening",
+        "Patch management",
+        "Configuration management"
+      ],
+      "correct_index": 1,
+      "explanation": "System hardening reduces attack surface by disabling unnecessary services, removing software, applying patches, and configuring security settings.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-1",
+      "question": "What mobile device deployment model allows employees to bring personally-owned devices to work?",
+      "options": [
+        "COPE",
+        "CYOD",
+        "BYOD",
+        "MDM"
+      ],
+      "correct_index": 2,
+      "explanation": "BYOD (Bring Your Own Device) allows employees to use their personally-owned devices for work purposes.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-2",
+      "question": "An employee's phone is stolen. You need to remotely erase all company data from the device. What MDM feature should you use?",
+      "options": [
+        "Geofencing",
+        "Remote wipe",
+        "Containerization",
+        "Screen lock"
+      ],
+      "correct_index": 1,
+      "explanation": "Remote wipe is an MDM feature that allows administrators to remotely erase data from lost or stolen devices.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-3",
+      "question": "What vulnerability scoring system rates vulnerabilities from 0-10 based on exploitability and impact?",
+      "options": [
+        "CVE",
+        "CWE",
+        "CVSS",
+        "OWASP Top 10"
+      ],
+      "correct_index": 2,
+      "explanation": "CVSS (Common Vulnerability Scoring System) is a standardized framework rating vulnerability severity 0-10 based on exploitability, impact, and scope.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-4",
+      "question": "Your vulnerability scan identifies CVE-2024-1234 with a CVSS score of 9.8. After analysis, you determine it affects a non-critical test system with no internet access. What should you prioritize?",
+      "options": [
+        "Patch immediately due to high CVSS score",
+        "Assess practical risk considering environment and impact",
+        "Ignore it since it's a test system",
+        "Wait for the next patch cycle"
+      ],
+      "correct_index": 1,
+      "explanation": "Vulnerability prioritization should consider CVSS score AND practical factors like asset criticality, exposure, and actual risk to the organization.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-5",
+      "question": "What is the correct order of incident response phases?",
+      "options": [
+        "Detection → Containment → Eradication → Recovery → Lessons Learned",
+        "Preparation → Detection → Containment → Eradication → Recovery → Lessons Learned",
+        "Detection → Preparation → Containment → Recovery → Eradication",
+        "Preparation → Containment → Detection → Recovery → Lessons Learned"
+      ],
+      "correct_index": 1,
+      "explanation": "Correct incident response phases: Preparation → Detection/Identification → Containment → Eradication → Recovery → Lessons Learned.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-6",
+      "question": "During a forensic investigation, you need to collect evidence in order of volatility. What should you collect first?",
+      "options": [
+        "Hard drive data",
+        "RAM contents",
+        "Log files",
+        "Backup tapes"
+      ],
+      "correct_index": 1,
+      "explanation": "Order of volatility: RAM → swap files → hard drives → backups. RAM is most volatile and must be collected first before power loss.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-7",
+      "question": "What ensures evidence integrity and admissibility in legal proceedings?",
+      "options": [
+        "Write blockers",
+        "Chain of custody",
+        "Forensic imaging",
+        "Hash verification"
+      ],
+      "correct_index": 1,
+      "explanation": "Chain of custody documents who accessed evidence, when, and why, ensuring integrity for legal proceedings.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-8",
+      "question": "Your SIEM correlates events from firewalls, IDS, endpoint agents, and authentication logs to detect sophisticated attacks. What capability is this?",
+      "options": [
+        "Log aggregation",
+        "Event correlation",
+        "Threat hunting",
+        "Incident response"
+      ],
+      "correct_index": 1,
+      "explanation": "SIEM event correlation analyzes events from multiple sources to detect patterns indicating sophisticated attacks that single events might miss.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-9",
+      "question": "What platform automates security operations workflows and integrates tools for faster incident response?",
+      "options": [
+        "SIEM",
+        "IPS",
+        "SOAR",
+        "EDR"
+      ],
+      "correct_index": 2,
+      "explanation": "SOAR (Security Orchestration, Automation, and Response) automates workflows, integrates tools, and enables faster incident response.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-10",
+      "question": "Your organization stores privileged account passwords in a secure vault. When admins need access, they check out credentials for limited time with all actions logged. What solution is this?",
+      "options": [
+        "Password manager",
+        "Single sign-on",
+        "Privileged access management",
+        "Multi-factor authentication"
+      ],
+      "correct_index": 2,
+      "explanation": "PAM (Privileged Access Management) controls privileged accounts through password vaulting, session monitoring, and just-in-time access.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-11",
+      "question": "What application security practice involves verifying code authenticity using digital signatures?",
+      "options": [
+        "Input validation",
+        "Code signing",
+        "Static analysis",
+        "Sandboxing"
+      ],
+      "correct_index": 1,
+      "explanation": "Code signing uses digital signatures to verify software authenticity and integrity, ensuring code hasn't been tampered with.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-12",
+      "question": "You're decommissioning old servers. Before disposal, you must ensure data cannot be recovered. What process should you perform?",
+      "options": [
+        "Formatting",
+        "Deleting files",
+        "Sanitization",
+        "Defragmentation"
+      ],
+      "correct_index": 2,
+      "explanation": "Sanitization securely removes data through overwriting, degaussing, or physical destruction to prevent recovery before disposal.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-13",
+      "question": "What Wi-Fi security protocol provides 192-bit encryption and protection against offline dictionary attacks?",
+      "options": [
+        "WPA2",
+        "WPA3",
+        "WEP",
+        "802.1X"
+      ],
+      "correct_index": 1,
+      "explanation": "WPA3 provides improved encryption (192-bit), protection against offline dictionary attacks, and forward secrecy.",
+      "domain": "4"
+    },
+    {
+      "id": "static-4-14",
+      "question": "Your asset management system tracks hardware from purchase through disposal. What phase includes overwriting data and obtaining certification before equipment leaves the facility?",
+      "options": [
+        "Acquisition",
+        "Assignment",
+        "Monitoring",
+        "Disposal"
+      ],
+      "correct_index": 3,
+      "explanation": "Disposal/decommissioning phase includes sanitization (data removal), destruction if needed, and certification before equipment disposal.",
+      "domain": "4"
+    },
+    {
+      "id": "static-5-0",
+      "question": "Your organization requires that no single person can complete a financial transaction from start to finish. Different employees must initiate, approve, and execute transactions. What control is this?",
+      "options": [
+        "Least privilege",
+        "Job rotation",
+        "Separation of duties",
+        "Mandatory vacation"
+      ],
+      "correct_index": 2,
+      "explanation": "Separation of duties divides critical functions among different people to prevent fraud - no single person controls entire process.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-1",
+      "question": "What's the difference between a policy and a procedure?",
+      "options": [
+        "Policy is optional, procedure is mandatory",
+        "Policy is high-level mandatory, procedure is step-by-step mandatory",
+        "Policy is technical, procedure is administrative",
+        "Policy is for users, procedure is for administrators"
+      ],
+      "correct_index": 1,
+      "explanation": "Policy defines high-level mandatory requirements. Procedures provide mandatory step-by-step instructions for implementing policies.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-2",
+      "question": "You're calculating risk using: Cost per incident ($50,000) × Expected incidents per year (3) = $150,000. What metric did you calculate?",
+      "options": [
+        "SLE",
+        "ARO",
+        "ALE",
+        "TCO"
+      ],
+      "correct_index": 2,
+      "explanation": "ALE (Annual Loss Expectancy) = SLE (Single Loss Expectancy) × ARO (Annual Rate of Occurrence). This calculates total yearly expected cost.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-3",
+      "question": "What risk response strategy involves purchasing cyber insurance?",
+      "options": [
+        "Accept",
+        "Avoid",
+        "Mitigate",
+        "Transfer"
+      ],
+      "correct_index": 3,
+      "explanation": "Transfer strategy shifts risk to third party through insurance or outsourcing to reduce financial impact on organization.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-4",
+      "question": "A critical vulnerability has 9.8 CVSS score but would cost $500K to fix properly. Your calculated ALE is $10K. Senior management decides to accept the risk. Is this appropriate?",
+      "options": [
+        "No, high CVSS scores must always be fixed",
+        "Yes, if ALE is lower than mitigation cost, acceptance may be appropriate",
+        "No, all vulnerabilities must be mitigated",
+        "Yes, CVSS scores don't matter for business decisions"
+      ],
+      "correct_index": 1,
+      "explanation": "Risk acceptance is appropriate when cost of mitigation exceeds the expected annual loss, though CVSS score and other factors should be considered.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-5",
+      "question": "What compliance framework applies to healthcare organizations handling patient data?",
+      "options": [
+        "PCI DSS",
+        "SOX",
+        "HIPAA",
+        "GDPR"
+      ],
+      "correct_index": 2,
+      "explanation": "HIPAA (Health Insurance Portability and Accountability Act) governs healthcare organizations' handling of protected health information.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-6",
+      "question": "Your company requires employees in accounting to take 2 consecutive weeks off each year during which someone else performs their duties. What security control is this?",
+      "options": [
+        "Separation of duties",
+        "Job rotation",
+        "Mandatory vacation",
+        "Cross-training"
+      ],
+      "correct_index": 2,
+      "explanation": "Mandatory vacation requires continuous time off to detect fraudulent activities that require constant attention to maintain.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-7",
+      "question": "What type of audit is performed by independent third parties to verify compliance?",
+      "options": [
+        "Internal audit",
+        "External audit",
+        "Regulatory audit",
+        "Self-assessment"
+      ],
+      "correct_index": 1,
+      "explanation": "External audits are performed by independent third parties to provide unbiased verification of compliance and controls.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-8",
+      "question": "Before signing a contract with a cloud provider, you review their SOC 2 report, security certifications, and incident response capabilities. What process are you performing?",
+      "options": [
+        "Risk assessment",
+        "Vendor due diligence",
+        "Compliance audit",
+        "Security review"
+      ],
+      "correct_index": 1,
+      "explanation": "Vendor due diligence investigates vendor's security practices, compliance certifications, and capabilities before establishing business relationship.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-9",
+      "question": "What defines expected service levels, uptime guarantees, and remedies for non-compliance?",
+      "options": [
+        "MOU",
+        "NDA",
+        "SLA",
+        "MSA"
+      ],
+      "correct_index": 2,
+      "explanation": "Service Level Agreement (SLA) defines expected service levels, uptime guarantees, response times, and remedies for non-compliance.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-10",
+      "question": "Your security awareness training includes phishing simulations every quarter with remedial training for employees who click malicious links. What are you measuring?",
+      "options": [
+        "Security posture",
+        "Training effectiveness",
+        "User behavior",
+        "Compliance rate"
+      ],
+      "correct_index": 1,
+      "explanation": "Simulations measure training effectiveness by testing if employees can recognize threats in realistic scenarios, identifying gaps for additional training.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-11",
+      "question": "What EU regulation governs processing and storage of personal data for EU citizens?",
+      "options": [
+        "HIPAA",
+        "GDPR",
+        "SOX",
+        "FISMA"
+      ],
+      "correct_index": 1,
+      "explanation": "GDPR (General Data Protection Regulation) governs processing and storage of personal data for EU citizens with strict privacy requirements.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-12",
+      "question": "During a third-party risk assessment, you discover your vendor outsources data processing to a fourth party you didn't know about. What risk does this represent?",
+      "options": [
+        "Operational risk",
+        "Supply chain risk",
+        "Compliance risk",
+        "Strategic risk"
+      ],
+      "correct_index": 1,
+      "explanation": "Supply chain risk includes threats from subcontractors and downstream vendors that may not meet your security requirements.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-13",
+      "question": "What control requires periodically moving employees between roles to detect fraud?",
+      "options": [
+        "Separation of duties",
+        "Mandatory vacation",
+        "Job rotation",
+        "Least privilege"
+      ],
+      "correct_index": 2,
+      "explanation": "Job rotation periodically moves employees between roles to detect fraud, prevent collusion, and reduce single points of failure.",
+      "domain": "5"
+    },
+    {
+      "id": "static-5-14",
+      "question": "Your organization identifies a risk but determines the likelihood is extremely low and impact is minimal. Management decides to do nothing. What risk response is this?",
+      "options": [
+        "Transfer",
+        "Mitigate",
+        "Avoid",
+        "Accept"
+      ],
+      "correct_index": 3,
+      "explanation": "Risk acceptance acknowledges the risk exists but consciously decides not to take action, typically for low-likelihood/low-impact scenarios.",
+      "domain": "5"
+    }
+  ],
+  "count": 75
+}

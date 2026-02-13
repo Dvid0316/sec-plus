@@ -40,6 +40,30 @@ Supported input schemas:
 - **Array** – `[{ front, back, tags }]` — the generator normalizes each card and assigns a domain.
 - **Domains object** – `{ domains: [{ name, sections: [{ name, bullets }] }] }` — legacy format also supported.
 
+## Adding New Flashcards/Questions
+
+To merge a new JSON file into your existing study data (new items at the top):
+
+```bash
+# 1. Place your new JSON file somewhere (e.g. repo root or a folder)
+# 2. Run the merge (output overwrites SECPLUS_COMPLETE_STUDY_DATA.json by default)
+node scripts/mergeStudyData.mjs --new path/to/your-new-cards.json
+
+# 3. Regenerate flashcards and questions
+npm run gen:flashcards
+npm run gen:questions
+```
+
+**Options:**
+- `--new` (required) – Path to the new JSON file
+- `--out` – Output file (default: `SECPLUS_COMPLETE_STUDY_DATA.json`)
+- `--existing` – Current file to merge with (default: `SECPLUS_COMPLETE_STUDY_DATA.json`)
+- `--no-dedupe` – Keep exact duplicates (default: dedupes by front+back)
+
+**New file format:** Array `[{ front, back, tags }]` or `{ cards: [...] }` or `{ flashcards: [...] }`. Fields can be `front`/`back` or `question`/`answer`.
+
+If the new file also has `practice_questions` (`{ "Domain 1": [{ question, options: {A,B,C,D}, correct, explanation }], ... }`), they are extracted to `src/data/practice_questions.static.json` and combined with generated quiz questions.
+
 ## Regenerating Content
 
 ### From a different input file
@@ -68,6 +92,7 @@ npm run gen:questions    # → src/data/questions.generated.json (~295 MCQs)
 | `npm run gen:flashcards` | Generate flashcards from study data |
 | `npm run gen:questions` | Generate MCQs from flashcards |
 | `npm run gen:concepts` | Generate concept dictionary |
+| `npm run merge:data -- --new <file>` | Merge new cards into existing study data |
 
 ## Generated Files
 
@@ -75,8 +100,9 @@ npm run gen:questions    # → src/data/questions.generated.json (~295 MCQs)
 |------|--------|------|
 | `src/data/flashcards.generated.json` | `gen:flashcards` | ~300 cards, stratified by SY0-701 domain weights |
 | `src/data/questions.generated.json` | `gen:questions` | ~295 MCQs (depends on stratification and dedupe) |
+| `src/data/practice_questions.static.json` | `merge:data` (when source has `practice_questions`) | Curated scenario/multiple-choice from study materials |
 
-These files are gitignored and recreated on each `dev` or `build`.
+Static practice questions are merged with generated MCQs in the Quiz.
 
 ## Tech Stack
 

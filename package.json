@@ -7,6 +7,7 @@
     "gen:flashcards": "node scripts/generateFlashcards.mjs",
     "gen:questions": "node scripts/generateQuestionsFromFlashcards.mjs",
     "gen:concepts": "node scripts/generateConceptDictionary.mjs",
+    "merge:data": "node scripts/mergeStudyData.mjs",
     "dev": "npm run gen:flashcards && npm run gen:questions && vite",
     "build": "npm run gen:flashcards && npm run gen:questions && vite build",
     "lint": "eslint .",

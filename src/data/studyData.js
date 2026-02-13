@@ -11,34 +11,51 @@ function shuffle(arr) {
 }
 
 let questionsGenerated = null
+let practiceQuestionsStatic = null
 try {
   questionsGenerated = (await import('./questions.generated.json')).default
 } catch {
   questionsGenerated = null
 }
+try {
+  practiceQuestionsStatic = (await import('./practice_questions.static.json')).default
+} catch {
+  practiceQuestionsStatic = null
+}
 
 function getPracticeQuestions() {
+  const generated = []
   if (questionsGenerated?.questions?.length) {
-    const mapped = questionsGenerated.questions
-      .filter((q) => q.type === 'mcq')
-      .map((q) => {
-        const correctAnswer = q.choices?.[q.answerIndex]
-        const options = shuffle([...(q.choices ?? [])])
-        const correct_index = correctAnswer != null
-          ? options.findIndex((opt) => opt === correctAnswer)
-          : 0
-        return {
-          id: q.id,
-          question: q.prompt,
-          options,
-          correct_index: correct_index >= 0 ? correct_index : 0,
-          correct_answer: correctAnswer,
-          explanation: q.explanation ?? correctAnswer,
-          domain: q.domain ?? 'all',
-        }
+    for (const q of questionsGenerated.questions.filter((q) => q.type === 'mcq')) {
+      const correctAnswer = q.choices?.[q.answerIndex]
+      const options = shuffle([...(q.choices ?? [])])
+      const correct_index = correctAnswer != null
+        ? options.findIndex((opt) => opt === correctAnswer)
+        : 0
+      generated.push({
+        id: q.id,
+        question: q.prompt,
+        options,
+        correct_index: correct_index >= 0 ? correct_index : 0,
+        correct_answer: correctAnswer,
+        explanation: q.explanation ?? correctAnswer,
+        domain: q.domain ?? 'all',
       })
-    return shuffle(mapped)
+    }
   }
+  const staticQuestions = (practiceQuestionsStatic?.questions ?? []).map((q) => {
+    const opts = q.options ?? []
+    const correctAnswer = opts[q.correct_index ?? 0]
+    const options = shuffle([...opts])
+    const correct_index = correctAnswer != null ? options.findIndex((opt) => opt === correctAnswer) : 0
+    return {
+      ...q,
+      options,
+      correct_index: correct_index >= 0 ? correct_index : 0,
+    }
+  })
+  const combined = [...staticQuestions, ...generated]
+  if (combined.length > 0) return shuffle(combined)
   return !isBaseArray && baseStudyData?.practice_questions ? shuffle(baseStudyData.practice_questions) : []
 }
 
